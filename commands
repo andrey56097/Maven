@@ -1,7 +1,0 @@
-mvn clean package -DskipTests 
-
-mvn clean package
-
-mvn clean install -DskipTests -pl service_name -am  
-
-mvn spring-boot:run
